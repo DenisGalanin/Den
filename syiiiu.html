@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+            color: #FFFFFF;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        div{
+            background-image: url(https://klike.net/uploads/posts/2022-10/1665556831_3-40.jpg);
+            background-repeat: no-repeat;
+            height: 250px;
+            opacity: 85%;
+        }
+        div h1{
+            text-align: center;
+            padding: 4em;
+            font-weight: 200;
+        }
+        .wrapper{
+            width: 1000px;
+            margin: 0 auto;
+        }
+        table{
+            margin: 0 auto;
+            font-size: 16.5pt;
+        }
+        table, th, td{
+            border: 1px solid rgb(255, 0, 0);
+            border-collapse: collapse;
+        }
+        tr{
+            background-color: rgba(0, 255, 170, 0.6);
+        }
+    </style>
+</head>
+<body>
+    <section class="wrapper">
+        <div>
+            <h1 text-align="center">Прайс-лист лучших роллов в городе</h1>
+        </div>
+        
+        <table>
+            <caption>Prise</caption>
+            <tr class="a1">
+                <th>Название ролла</th>
+                <th>Гр.</th>
+                <th colspan="2">Состав</th>
+                <th>Цена</th>
+            </tr>
+            <tr class="a2">
+                <td>Токио</td>
+                <td> 260 </td>
+                <td colspan="2">сыр "Филадельфия",томат, тунец, филе лосося, кунжут</td>
+                <td>320р.</td>
+            </tr>
+            <tr class="a3">
+                <td>Филадельфия де люкс</td>
+                <td>230</td>
+                <td colspan="2">сыр "Филадельфия", огурчик, филе лосося</td>
+                <td>370р.</td>
+            </tr>
+            <tr class="a4">
+                <td>Майами</td>
+                <td> 230 </td>
+                <td colspan="2">лосось терияки, огурец, под шапкой сыра "Пармезана" с зеленью и луком</td>
+                <td>200р.</td>
+            </tr>
+            <tr class="a5">
+                <td>Окинава</td>
+                <td> 200 </td>
+                <td colspan="2"> сливочный сыр, тунец, копченый лолось, зеленый лук</td>
+                <td>240р.</td>
+            <tr class="a6">
+                <td>Филадельфия </td>
+                <td>240</td>
+                <td colspan="2">сыр "Филадельфия", огурчик, филе лосося</td>
+                <td>360р.</td>
+            <tr class="a7">
+                <td>Калифорния</td>
+                <td>280</td>
+                <td colspan="2">огурец, семга, авокадо </td>
+                <td>300р.</td>
+            <tr class="a8">
+                <td>Самурай</td>
+                <td>200</td>
+                <td colspan="2">сыр "Филадельфия", тобико зеленое, огурец</td>
+                <td>390р.</td>
+            <tr class="a8">
+                <td>Марсель</td>
+                <td>290</td>
+                <td colspan="2">Ореховый соус, огурчик, филе лосося, креветка</td>
+                <td>370р.</td>
+            </tr>
+        </table>
+        <p>В подарок с заказом от 650 руб. идёт один выбранный вами напиток из списка</p>
+        <select id="present">
+            <option value="coca">Coca-cola 0.5</option>
+            <option value="fanta">Fanta 0.5</option>
+            <option value="sprite">Sprite 0.5</option>
+            <option value="sok">Сок Добрый 0.5</option>
+        </select>
+        <h3>После того как вы определились с вашим заказом заполните бланк ниже, после чего с вами свяжется наш оператор для подтверждения заказа</h3>
+        <form action="">
+            <fieldset>
+                <legend>Ваши данные</legend>
+                <input type="text" placeholder="ФИО" required> <br><br>
+                <input type="text" placeholder="+79689996565" required> <br><br>
+                <input type="text" placeholder="Адрес" required> <br><br>
+                <input type="button" name="send" value="отправть">
+                <input type="reset" name="res" value="очистить форму"> <br><br>
+            </fieldset>
+        </form>
+    </section>
+</body>
+</html>
